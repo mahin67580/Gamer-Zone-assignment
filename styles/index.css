@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.nav-container {
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.logo-container {
+
+    display: flex;
+    width: 50%;
+
+    align-items: center;
+}
+
+.logo-container img {
+
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+
+
+
+
+
+
+}
+
+.logo-container p {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 80px;
+
+}
+
+
+.hive-section {
+    color: #FF42A5;
+
+}
+
+.nav-items-container {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 18px;
+
+    font-weight: 500;
+    color: #3C354F;
+}
+
+.fa-youtube {
+    font-size: 25px;
+    margin-left: 20px;
+    color: red;
+
+
+}
+
+.fa-tiktok {
+    font-size: 21px;
+    margin-left: 30px;
+
+}
+
+.box {
+    width: 262px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+
+/*  */
+
+.teams-container {
+
+
+    /* 
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+    border: 2px solid aqua; */
+
+    margin: 0 auto ;
+    max-width: 2000px;
+
+    display: flex;
+
+    padding: 10px;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.teams-image {
+
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1.5rem;
+   
+    width: 50%;
+
+
+
+}
+
+.teams-content {
+
+     
+    max-width: 1400px;
+    margin-left: 238px;
+    width: 40%;
+ 
+   
+
+
+}
+
+.teams-title1 {
+    font-size: 48px;
+    color: #0B0223;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.teams-title2 {
+     
+    margin-top: -30px;
+    font-size: 95px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.btn-primary {
+
+
+    padding: 21px 40px;
+     
+     
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+
+
+
+}
+.btn-primary1 {
+
+
+    padding: 21px 40px;
+     
+     width: 185px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+
+
+
+}
+
+.teams-description {
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+ 
