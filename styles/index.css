@@ -290,3 +290,90 @@ font-weight: 700;
     font-weight: 500;
  
  }
+
+ .abc{
+
+
+
+ 
+margin-right:  50px;
+
+ }
+.miku{
+
+    
+     margin-right:20px;
+ }
+
+
+ .horse-container{
+
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1500px;
+ 
+    margin: 0 auto;
+     
+    margin-top: 150px;
+
+     
+
+ 
+
+     
+ }
+
+.horse-text{
+   
+    text-align: center;
+    position: relative;
+    top: 200px;
+    
+   
+    
+
+}
+.horse-text h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+
+.horse-text p{
+    font-size: 18px;
+ 
+font-weight: 400;
+}
+
+
+ 
+ 
+ .horse-img img {
+
+    margin-left: 100px;
+ }
+
+ .black-ship{
+
+   margin-left: 77px;
+   
+ }
+ .black-ship1{
+
+  color: #F948B2;
+    
+    
+
+
+
+ }
+ .horse-img2 img{
+
+
+    position: relative;
+    left: 700px;
+bottom: 300px;
+ }
