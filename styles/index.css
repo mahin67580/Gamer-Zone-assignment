@@ -116,7 +116,7 @@ nav {
    grid-template-columns: repeat(2,1fr);
     border: 2px solid aqua; */
 
-    margin: 0 auto ;
+    margin: 0 auto;
     max-width: 2000px;
 
     display: flex;
@@ -135,7 +135,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     gap: 1.5rem;
-   
+
     width: 50%;
 
 
@@ -144,12 +144,12 @@ nav {
 
 .teams-content {
 
-     
+
     max-width: 1400px;
     margin-left: 238px;
     width: 40%;
- 
-   
+
+
 
 
 }
@@ -162,7 +162,7 @@ nav {
 }
 
 .teams-title2 {
-     
+
     margin-top: -30px;
     font-size: 95px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -176,8 +176,8 @@ nav {
 
 
     padding: 21px 40px;
-     
-     
+
+
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
@@ -191,12 +191,13 @@ nav {
 
 
 }
+
 .btn-primary1 {
 
 
     padding: 21px 40px;
-     
-     width: 185px;
+
+    width: 185px;
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
@@ -218,4 +219,74 @@ nav {
     font-weight: 500;
 
 }
+
+.banner-content {
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+.ab{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
  
+font-size: 48px;
+ 
+font-weight: 700;
+ 
+}
+
+.banner-description {
+    font-size: 18px;
+     color: #534C64;
+    font-weight: 400;
+}
+
+ .n{
+
+
+     
+    display: flex;
+    justify-content: space-around;
+
+   
+  
+  
+ }
+ .nobita-img img {
+
+    border:  10px solid white;
+      
+
+ }
+ .textt{
+
+
+
+     
+    max-width: 1500px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+ }
+ .textt p{
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+ 
+ }
