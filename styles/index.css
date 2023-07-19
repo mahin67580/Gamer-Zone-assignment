@@ -447,19 +447,24 @@ nav {
 .div1 :hover {
 
     border: 5px solid #FF42A5;
+    color: #F948B2;
+    
 
 }
 
 .div2 :hover {
 
     border: 5px solid #FF42A5;
+    color: #F948B2;
 
 }
 
 .op:hover {
 
     transform: rotate(45deg);
-    border: 5px solid white
+    border: 7px solid #FF42A5  ;
+    opacity: 1;
+    transition: .3s ease;
 }
 
 
@@ -491,6 +496,8 @@ nav {
 
 
 }
+
+/*  */
 
 .main-footer-div {
 
@@ -583,7 +590,7 @@ nav {
 
 .fdiv4 {
 
-   
+
     display: flex;
     justify-content: space-evenly;
 
@@ -601,7 +608,7 @@ nav {
 
 }
 
-.last{
+.last {
 
     font-size: 16px;
     color: rgba(255, 255, 255, 0.60);
@@ -617,54 +624,54 @@ nav {
     position: relative;
     width: 340px;
     height: 400px;
-      
-      
+
+
     border-radius: 50px;
 
-    margin-left:12px;
+    margin-left: 12px;
     margin-top: -413px;
-  }
-  
-  .container2 {
+}
+
+.container2 {
     position: relative;
     width: 340px;
     height: 400px;
-      
-  
+
+
     border-radius: 50px;
 
-    margin-left:380px;
+    margin-left: 380px;
     margin-top: -400px;
-  }
-  
-  .container3 {
+}
+
+.container3 {
     position: relative;
     width: 340px;
     height: 400px;
-      
-      
+
+
     border-radius: 50px;
 
-    margin-left:747px;
+    margin-left: 747px;
     margin-top: -400px;
-  }
+}
 
-  .container4 {
+.container4 {
     position: relative;
     width: 340px;
     height: 400px;
-      
-    
+
+
     border-radius: 50px;
 
-    margin-left:1113px;
+    margin-left: 1113px;
     margin-top: -400px;
-  }
-  
+}
 
-  
-  
-  .overlay {
+
+
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -676,13 +683,13 @@ nav {
     transition: .3s ease;
     background-color: rgb(88, 32, 32);
     border-radius: 20px;
-    
 
-    
-   
-  }
 
-  .overlay2 {
+
+
+}
+
+.overlay2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -694,13 +701,13 @@ nav {
     transition: .3s ease;
     background-color: rgb(88, 32, 32);
     border-radius: 20px;
-    
 
-    
-   
-  }
 
-  .overlay3 {
+
+
+}
+
+.overlay3 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -712,13 +719,13 @@ nav {
     transition: .3s ease;
     background-color: rgb(88, 32, 32);
     border-radius: 20px;
-  
 
-    
-   
-  }
 
-  .overlay4 {
+
+
+}
+
+.overlay4 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -730,39 +737,39 @@ nav {
     transition: .3s ease;
     background-color: rgb(88, 32, 32);
     border-radius: 20px;
-    
 
-    
-   
-  }
 
- 
 
-  
-  
-  .container:hover .overlay {
-    opacity: 0.7;
-    
-  }
-  
-    
-  .container2:hover .overlay2 {
-    opacity: 0.7;
-    
-  }
-  
-  .container3:hover .overlay3 {
-    opacity: 0.7;
-    
-  }
 
-  .container4:hover .overlay4 {
+}
+
+
+
+
+
+.container:hover .overlay {
     opacity: 0.7;
-    
-  }
-  
- 
-  .icon {
+
+}
+
+
+.container2:hover .overlay2 {
+    opacity: 0.7;
+
+}
+
+.container3:hover .overlay3 {
+    opacity: 0.7;
+
+}
+
+.container4:hover .overlay4 {
+    opacity: 0.7;
+
+}
+
+
+.icon {
     color: white;
     font-size: 100px;
     position: absolute;
@@ -771,9 +778,5 @@ nav {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    
-  }
 
-  
-  
-  
+}
