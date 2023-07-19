@@ -393,7 +393,7 @@ nav {
 
     max-width: 2000px;
     margin: 0 auto;
-   
+
     min-height: 400px;
     padding: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -407,7 +407,7 @@ nav {
 
 
     min-height: 100px;
-    
+
     display: flex;
     justify-content: space-evenly;
 
@@ -444,40 +444,39 @@ nav {
 
 
 
-.div1 :hover{
-
-     border: 5px solid #FF42A5;
-
-}
-
-.div2 :hover{
+.div1 :hover {
 
     border: 5px solid #FF42A5;
 
 }
 
-.op:hover{
+.div2 :hover {
+
+    border: 5px solid #FF42A5;
+
+}
+
+.op:hover {
 
     transform: rotate(45deg);
     border: 5px solid white
-   
-   }
+}
 
- 
+
 
 .div1 button img {
 
     border-radius: 50px;
     border-color: #FFF;
-   
-   }
 
-   .div2 button img {
+}
+
+.div2 button img {
 
     border-radius: 50px;
     border-color: #FFF;
-   
-   }
+
+}
 
 
 .div2 {
@@ -486,95 +485,129 @@ nav {
     margin-left: 150px;
     margin-top: 100px;
     min-height: 100px;
-    
+
     display: flex;
     justify-content: space-evenly;
 
 
 }
 
- .main-footer-div{
+.main-footer-div {
 
 
     max-width: 2000px;
     margin: 0 auto;
     min-height: 600px;
-    border: 2px solid tomato;
+
     background: #0B0223;
 
 
 
 
- }
- .fdiv1{
+}
+
+.fdiv1 {
 
 
     min-height: 70px;
-   
-    width: 20%; 
-    padding: 20px;
-     
-    text-align: center;
-    margin:50px auto ;
- }
 
- .hive-section2{
+    width: 20%;
+    padding: 20px;
+
+    text-align: center;
+    margin: 50px auto;
+}
+
+.hive-section2 {
 
 
     font-size: 45px;
- color: #FF42A5;
-font-weight: 700;
+    color: #FF42A5;
+    font-weight: 700;
 
 
- }
+}
 
- .hive-section3{
+.hive-section3 {
     font-size: 45px;
     color: white;
-   font-weight: 700;
+    font-weight: 700;
 
 
 
- }
- 
- .fdiv2{
+}
+
+.fdiv2 {
 
     min-height: 70px;
-   
-    width: 80%; 
+
+    width: 80%;
     padding: 20px;
-     
+
     text-align: center;
-    margin:50px auto ;
+    margin: 50px auto;
     display: flex;
     justify-content: space-evenly;
     margin-top: -80px;
 
- }
+}
 
- .fdiv2 p {  
+.fdiv2 p {
 
     font-size: 18px;
-     color: #FFFFFF;
+    color: #FFFFFF;
     font-weight: 600;
-   
- }
- .fdiv3{
+
+}
+
+.fdiv3 {
     min-height: 70px;
-   
-    width: 80%; 
+
+    width: 80%;
     padding: 10px;
-    
-     
-    margin: 10px auto ;
+
+
+    margin: 10px auto;
     margin-top: -50px;
 
- }
- .fdiv3 >ul{
-     
-    
+}
+
+.fdiv3>ul {
+
+
     display: flex;
     justify-content: space-evenly;
- 
 
- }
+
+}
+
+.fdiv4 {
+
+   
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+
+.fdiv4 p {
+
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+
+
+}
+
+.last{
+
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
