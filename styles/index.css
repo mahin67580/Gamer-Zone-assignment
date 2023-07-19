@@ -492,3 +492,89 @@ nav {
 
 
 }
+
+ .main-footer-div{
+
+
+    max-width: 2000px;
+    margin: 0 auto;
+    min-height: 600px;
+    border: 2px solid tomato;
+    background: #0B0223;
+
+
+
+
+ }
+ .fdiv1{
+
+
+    min-height: 70px;
+   
+    width: 20%; 
+    padding: 20px;
+     
+    text-align: center;
+    margin:50px auto ;
+ }
+
+ .hive-section2{
+
+
+    font-size: 45px;
+ color: #FF42A5;
+font-weight: 700;
+
+
+ }
+
+ .hive-section3{
+    font-size: 45px;
+    color: white;
+   font-weight: 700;
+
+
+
+ }
+ 
+ .fdiv2{
+
+    min-height: 70px;
+   
+    width: 80%; 
+    padding: 20px;
+     
+    text-align: center;
+    margin:50px auto ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -80px;
+
+ }
+
+ .fdiv2 p {  
+
+    font-size: 18px;
+     color: #FFFFFF;
+    font-weight: 600;
+   
+ }
+ .fdiv3{
+    min-height: 70px;
+   
+    width: 80%; 
+    padding: 10px;
+    
+     
+    margin: 10px auto ;
+    margin-top: -50px;
+
+ }
+ .fdiv3 >ul{
+     
+    
+    display: flex;
+    justify-content: space-evenly;
+ 
+
+ }
